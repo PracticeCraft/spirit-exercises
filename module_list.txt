@@ -1,0 +1,6 @@
+basic_types
+lists_and_tuples
+pattern_matching
+case_cond_and_if
+anonymous_functions
+binaries_strings_and_charlists
