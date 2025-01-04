@@ -4,3 +4,6 @@ pattern_matching
 case_cond_and_if
 anonymous_functions
 binaries_strings_and_charlists
+keyword_lists_and_maps
+modules_and_functions
+recursion
