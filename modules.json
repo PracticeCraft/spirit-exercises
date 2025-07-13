@@ -1,13 +1,16 @@
 {
-  "modules": [
-    "basic_types",
-    "lists_and_tuples",
-    "pattern_matching",
-    "case_cond_and_if",
-    "anonymous_functions",
-    "binaries_strings_and_charlists",
-    "keyword_lists_and_maps",
-    "modules_and_functions",
-    "recursion"
+  "dirs": [
+    { "name": "basic_types", "modules": ["basic_types"] },
+    { "name": "lists_and_tuples", "modules": ["lists_and_tuples"] },
+    { "name": "pattern_matching", "modules": ["pattern_matching"] },
+    { "name": "case_cond_and_if", "modules": ["case_cond_and_if"] },
+    { "name": "anonymous_functions", "modules": ["anonymous_functions"] },
+    {
+      "name": "binaries_strings_and_charlists",
+      "modules": ["binaries_strings_and_charlists"]
+    },
+    { "name": "keyword_lists_and_maps", "modules": ["keyword_lists_and_maps"] },
+    { "name": "modules_and_functions", "modules": ["modules_and_functions"] },
+    { "name": "recursion", "modules": ["recursion"] }
   ]
 }
