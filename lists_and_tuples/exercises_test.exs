@@ -6,30 +6,6 @@ defmodule Spirit.ListsAndTuplesTests do
   alias Spirit.ListsAndTuples
 
   describe "Lists and Tuples Tests" do
-    test "three_item_list/0" do
-      list = ListsAndTuples.three_item_list()
-
-      assert length(list) == 3
-    end
-
-    test "add_two_lists/2" do
-      list_a = [1, 2, 3]
-      list_b = [true, false, nil]
-
-      result = ListsAndTuples.add_two_lists(list_a, list_b)
-
-      assert result == [1, 2, 3, true, false, nil]
-    end
-
-    test "subtract_two_lists/2" do
-      list_a = [1, true, 2, false, 3]
-      list_b = [true, false]
-
-      result = ListsAndTuples.subtract_two_lists(list_a, list_b)
-
-      assert result == [1, 2, 3]
-    end
-
     test "return_list_head/1" do
       head = ListsAndTuples.return_list_head([1, 2, 3])
 
@@ -61,4 +37,3 @@ defmodule Spirit.ListsAndTuplesTests do
     end
   end
 end
-

@@ -5,7 +5,7 @@ defmodule Spirit.BasicTypes.Chatter do
   This module contains functions that do basic string manipulation to build such
   features.
 
-  Chapter: [Basic Types](https://hexdocs.pm/elixir/basic-types.html)
+  Chapter: [Basic types](https://hexdocs.pm/elixir/basic-types.html)
   """
 
   @doc """

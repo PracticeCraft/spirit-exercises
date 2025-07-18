@@ -1,7 +1,7 @@
 {
   "dirs": [
     { "name": "basic_types", "modules": ["kpi", "bools", "chatter"] },
-    { "name": "lists_and_tuples", "modules": ["lists_and_tuples"] },
+    { "name": "lists_and_tuples", "modules": ["socially"] },
     { "name": "pattern_matching", "modules": ["pattern_matching"] },
     { "name": "case_cond_and_if", "modules": ["case_cond_and_if"] },
     { "name": "anonymous_functions", "modules": ["anonymous_functions"] },

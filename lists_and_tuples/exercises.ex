@@ -9,47 +9,6 @@ defmodule Spirit.ListsAndTuples do
   """
 
   @doc """
-  Returns a list  with three items in it.
-  Items should be the numbers 1, 2, and 3.
-
-  ## Examples
-
-      iex> list = Spirit.ListsAndTuples.three_item_list()
-      [1, 2, 3]
-      iex> length(list)
-      3
-  """
-  def three_item_list() do
-  end
-
-  @doc """
-  Takes 2 lists as input and adds them together.
-  A single list consisting of the two original lists should be returned.
-
-  ## Examples
-
-      iex> list_a = [1, 2, 3]
-      iex> list_b = [true, false, nil]
-      iex> Spirit.ListsAndTuples.add_two_lists(list_a, list_b)
-      [1, 2, 3, true, false, nil]
-  """
-  def add_two_lists(list_a, list_b) do
-  end
-
-  @doc """
-  Subtracts the second list from the first list, returning the result.
-
-  ## Examples
-
-      iex> list_a = [1, true, 2, false, 3]
-      iex> list_b = [true, false]
-      iex> Spirit.ListsAndTuples.subtract_two_lists(list_a, list_b)
-      [1, 2, 3]
-  """
-  def subtract_two_lists(list_a, list_b) do
-  end
-
-  @doc """
   Returns just the head of a list
 
   ## Examples
@@ -106,4 +65,3 @@ defmodule Spirit.ListsAndTuples do
   def return_list_length(list) do
   end
 end
-

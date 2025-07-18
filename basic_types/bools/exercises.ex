@@ -2,7 +2,7 @@ defmodule Spirit.BasicTypes.Bools do
   @moduledoc """
   You're writing a boolean utility library.
 
-  Chapter: [Basic Types](https://hexdocs.pm/elixir/basic-types.html)
+  Chapter: [Basic types](https://hexdocs.pm/elixir/basic-types.html)
   """
 
   @doc """

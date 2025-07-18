@@ -3,7 +3,7 @@ defmodule Spirit.BasicTypes.KPI do
   You're writing a module with helpers to be used by an app that analyzes
   company KPIs.
 
-  Chapter: [Basic Types](https://hexdocs.pm/elixir/basic-types.html)
+  Chapter: [Basic types](https://hexdocs.pm/elixir/basic-types.html)
   """
 
   @doc """
