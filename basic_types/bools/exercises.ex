@@ -33,6 +33,9 @@ defmodule Spirit.BasicTypes.Bools do
       iex> Spirit.BasicTypes.Bools.boolean_opposites?(true, false)
       true
 
+      iex> Spirit.BasicTypes.Bools.opposites?(nil, [])
+      true
+
   """
   def boolean_opposites?(a, b) do
   end
