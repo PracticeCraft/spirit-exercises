@@ -3,7 +3,7 @@
     { "name": "basic_types", "modules": ["kpi", "bools", "chatter"] },
     { "name": "lists_and_tuples", "modules": ["socially", "geoloc", "orders"] },
     { "name": "pattern_matching", "modules": ["result", "list_utils"] },
-    { "name": "case_cond_and_if", "modules": ["case_cond_and_if"] },
+    { "name": "case_cond_and_if", "modules": ["api", "nums"] },
     { "name": "anonymous_functions", "modules": ["anonymous_functions"] },
     {
       "name": "binaries_strings_and_charlists",
