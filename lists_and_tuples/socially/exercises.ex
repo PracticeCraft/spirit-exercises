@@ -32,6 +32,6 @@ defmodule Spirit.ListsAndTuples.Socially do
       ["sarah"]
 
   """
-  def free_new_users(list_a, list_b) do
+  def free_new_users(new_users, free_users) do
   end
 end
