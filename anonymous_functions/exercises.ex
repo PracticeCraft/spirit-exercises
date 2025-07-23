@@ -53,7 +53,7 @@ defmodule Spirit.AnonymousFunctions do
   Uses `create_success_logger/0` or `create_error_logger/0` to log the result
   of its argument, given as a tuple containing `:ok`/`:error` and a message.
 
-  ### Examples
+  ## Examples
 
       iex> Spirit.AnonymousFunctions.log_result({:ok, "sent"})
       "[SUCCESS] sent"

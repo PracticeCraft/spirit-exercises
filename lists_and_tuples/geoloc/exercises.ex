@@ -17,7 +17,7 @@ defmodule Spirit.ListsAndTuples.Geoloc do
   Returns a boolean of whether or not the input is a valid coord. A valid coord
   is a two-tuple and contains only numbers.
 
-  ### Examples
+  ## Examples
 
       iex> Spirit.ListsAndTuples.Geoloc.is_coord({1.9, 0.1})
       true

@@ -12,7 +12,7 @@ defmodule Spirit.BasicTypes.Chatter do
   Converts the given string to uppercase and appends an exclamation mark at the
   end.
 
-  ### Examples
+  ## Examples
 
       iex> Spirit.BasicTypes.Chatter.shout("yes")
       "YES!"
@@ -24,7 +24,7 @@ defmodule Spirit.BasicTypes.Chatter do
   @doc """
   Formats the given message and sender in this form: "[SENDER]: MESSAGE"
 
-  ### Examples
+  ## Examples
 
       iex> Spirit.BasicTypes.Chatter.format_message("hi there", "bob")
       "[bob]: hi there"

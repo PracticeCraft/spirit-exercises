@@ -14,7 +14,7 @@ defmodule Spirit.ListsAndTuples.Orders do
 
   Raises if the given list is empty.
 
-  ### Examples
+  ## Examples
 
       iex> orders = [{"2025-06-07", 1999.99}, {"2025-06-06", 999.99}, {"2025-06-05", 2999.99}]
       iex> Spirit.ListsAndTuples.Orders.get_newest(orders)
@@ -27,7 +27,7 @@ defmodule Spirit.ListsAndTuples.Orders do
   @doc """
   Returns the cost of an order.
 
-  ### Examples
+  ## Examples
 
       iex> Spirit.ListsAndTuples.Orders.get_cost({"2025-06-07", 1999.99})
       1999.99
@@ -39,7 +39,7 @@ defmodule Spirit.ListsAndTuples.Orders do
   @doc """
   Returns the number of orders in the given list.
 
-  ### Examples
+  ## Examples
 
       iex> orders = [{"2025-06-07", 1999.99}, {"2025-06-06", 999.99}, {"2025-06-05", 2999.99}]
       iex> Spirit.ListsAndTuples.Orders.get_count(orders)
