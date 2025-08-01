@@ -4,7 +4,7 @@
     { "name": "lists_and_tuples", "modules": ["socially", "geoloc", "orders"] },
     { "name": "pattern_matching", "modules": ["result", "list_utils"] },
     { "name": "case_cond_and_if", "modules": ["api", "nums"] },
-    { "name": "anonymous_functions", "modules": ["anonymous_functions"] },
+    { "name": "anonymous_functions", "modules": ["logger"] },
     {
       "name": "binaries_strings_and_charlists",
       "modules": ["binaries_strings_and_charlists"]
