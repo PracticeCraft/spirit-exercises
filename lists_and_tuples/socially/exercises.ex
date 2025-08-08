@@ -21,8 +21,8 @@ defmodule Spirit.ListsAndTuples.Socially do
   end
 
   @doc """
-  Removes from the first list of (new) users, those who aren't in the second
-  list of (premium) users.
+  Removes from the first list of (new) users, those who are in the second list
+  of (premium) users.
 
   ## Examples
 
@@ -32,6 +32,6 @@ defmodule Spirit.ListsAndTuples.Socially do
       ["sarah"]
 
   """
-  def free_new_users(new_users, free_users) do
+  def free_new_users(new_users, premium_users) do
   end
 end
