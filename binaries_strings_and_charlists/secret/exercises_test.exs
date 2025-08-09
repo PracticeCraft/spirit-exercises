@@ -4,7 +4,7 @@ defmodule Spirit.BinariesAndCharlists.SecretTest do
 
   alias Spirit.BinariesAndCharlists.Secret
 
-  describe "Binaries, strings, and charlists Tests" do
+  describe "Binaries, strings, and charlists: Secret" do
     test "sample_passphrase/0" do
       assert Secret.sample_passphrase() == "elixir"
     end

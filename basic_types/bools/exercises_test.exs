@@ -4,21 +4,23 @@ defmodule Spirit.BasicTypes.BoolsTest do
 
   alias Spirit.BasicTypes.Bools
 
-  test "opposites?/2" do
-    assert Bools.opposites?(true, false) == true
-    assert Bools.opposites?(nil, []) == true
-    assert Bools.opposites?(1, "hi") == false
-  end
-
-  test "boolean_opposites?/2" do
-    assert Bools.boolean_opposites?(true, false) == true
-
-    assert_raise BadBooleanError, fn ->
-      Bools.boolean_opposites?(nil, [])
+  describe "Basic types: Bools" do
+    test "opposites?/2" do
+      assert Bools.opposites?(true, false) == true
+      assert Bools.opposites?(nil, []) == true
+      assert Bools.opposites?(1, "hi") == false
     end
 
-    assert_raise BadBooleanError, fn ->
-      Bools.boolean_opposites?(1, "hi")
+    test "boolean_opposites?/2" do
+      assert Bools.boolean_opposites?(true, false) == true
+
+      assert_raise BadBooleanError, fn ->
+        Bools.boolean_opposites?(nil, [])
+      end
+
+      assert_raise BadBooleanError, fn ->
+        Bools.boolean_opposites?(1, "hi")
+      end
     end
   end
 end

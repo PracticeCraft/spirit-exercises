@@ -4,7 +4,7 @@ defmodule Spirit.CaseCondAndIf.NumsTest do
 
   alias Spirit.CaseCondAndIf.Nums
 
-  describe "case, cond, and if Tests" do
+  describe "case, cond, and if: Nums" do
     test "odd_or_even/1" do
       assert Nums.odd_or_even(1) == :odd
       assert Nums.odd_or_even(10) == :even
