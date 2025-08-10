@@ -4,7 +4,7 @@ defmodule Spirit.Recursion.StatsTest do
 
   alias Spirit.Recursion.Stats
 
-  describe "Recursion Tests" do
+  describe "Recursion: Stats" do
     test "sorted?/1" do
       assert Stats.sorted?([1, 2, 3, 13, 4]) == false
     end

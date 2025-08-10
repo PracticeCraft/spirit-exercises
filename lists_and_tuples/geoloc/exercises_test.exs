@@ -4,11 +4,13 @@ defmodule Spirit.ListsAndTuples.GeolocTest do
 
   alias Spirit.ListsAndTuples.Geoloc
 
-  test "sample_coord/0" do
-    result = Geoloc.sample_coord()
+  describe "Lists and tuples: Geoloc" do
+    test "sample_coord/0" do
+      result = Geoloc.sample_coord()
 
-    assert {a, b} = result
-    assert a == 1.23
-    assert b == 9.4
+      assert {a, b} = result
+      assert a == 1.23
+      assert b == 9.4
+    end
   end
 end

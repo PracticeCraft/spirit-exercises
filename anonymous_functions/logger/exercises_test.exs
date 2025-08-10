@@ -4,7 +4,7 @@ defmodule Spirit.AnonymousFunctions.LoggerTest do
 
   alias Spirit.AnonymousFunctions.Logger
 
-  describe "Anonymous functions Tests" do
+  describe "Anonymous functions: Logger" do
     test "create_error_logger/0" do
       logger = Logger.create_error_logger()
       assert logger.("bad request") == "[ERROR] bad request"
