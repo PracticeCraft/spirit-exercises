@@ -4,11 +4,13 @@ defmodule Spirit.BasicTypes.ChatterTest do
 
   alias Spirit.BasicTypes.Chatter
 
-  test "shout/1" do
-    assert Chatter.shout("no") == "NO!"
-  end
+  describe "Basic types: Chatter" do
+    test "shout/1" do
+      assert Chatter.shout("no") == "NO!"
+    end
 
-  test "format_message/2" do
-    assert Chatter.format_message("No.", "Sentient AI") == "[Sentient AI]: No."
+    test "format_message/2" do
+      assert Chatter.format_message("No.", "Sentient AI") == "[Sentient AI]: No."
+    end
   end
 end
