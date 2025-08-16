@@ -8,6 +8,7 @@
     { "name": "binaries_strings_and_charlists", "modules": ["str", "secret"] },
     { "name": "keyword_lists_and_maps", "modules": ["formatter", "recipes"] },
     { "name": "modules_and_functions", "modules": ["email"] },
-    { "name": "recursion", "modules": ["stats", "interview"] }
+    { "name": "recursion", "modules": ["stats", "interview"] },
+    { "name": "enumerables_and_streams", "modules": ["kanban"] }
   ]
 }
