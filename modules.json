@@ -9,6 +9,10 @@
     { "name": "keyword_lists_and_maps", "modules": ["formatter", "recipes"] },
     { "name": "modules_and_functions", "modules": ["email"] },
     { "name": "recursion", "modules": ["stats", "interview"] },
-    { "name": "enumerables_and_streams", "modules": ["kanban"] }
+    { "name": "enumerables_and_streams", "modules": ["kanban"] },
+    {
+      "name": "processes",
+      "modules": ["slow_runner", "poor_mans_task", "game_server"]
+    }
   ]
 }
