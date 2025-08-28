@@ -30,7 +30,7 @@ defmodule Spirit.ModulesAndFunctions.Email do
 
       iex> email = %{to: "someone", body: "Welcome aboard!"}
       iex> Spirit.ModulesAndFunctions.Email.process_email(email)
-      {:ok, :invalid_email}
+      {:error, :invalid_email}
 
   """
   def process_email(%{to: email_to, body: email_body}) do
