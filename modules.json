@@ -13,6 +13,7 @@
     {
       "name": "processes",
       "modules": ["slow_runner", "poor_mans_task", "game_server"]
-    }
+    },
+    { "name": "io", "modules": ["csv"] }
   ]
 }
